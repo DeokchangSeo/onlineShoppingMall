@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<title></title>
+		<style type="text/css" media="screen">
+		</style>
+		<link href="stylesheet/new.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" language="JavaScript" src = "shoppingCart.js"></script>
+		<script type="text/javascript" language="JavaScript" src = "teaList.js"></script>
+		<script type="text/javascript">
+
+		function MM_openBrWindow(theURL,winName,features)
+		{
+  			window.open(theURL,winName,features);
+		}
+		</script>
+	</head>
+
+	<body onload="show_clock(); updateTotal()">
+	<div id= "container">
+		<div id="header">
+		<img width="960" height="200" src="image/banner.jpg" alt="" />
+		</div>
+		<div id="navigation">
+			<div class = "navi">
+				<ul>
+				<li ><a href="index.html"><b>Home</b></a></li>
+				<li><a href="about.html"><b>about</b></a></li>
+				<li><a href="tealist.html"><b>Tealist</b></a></li>
+				<li><a href="menu.html"><b>menu</b></a></li>
+				<li><a href="retail.html"><b>Retail</b></a></li>
+				<li><a href="contact.html"><b>Contact</b></a></li>
+				</ul>
+			</div>
+		<div id ="leftcolumn">
+			<div id ="leftcolumn_subheader">
+				<div class="leftcolumn_subheader_subnavi">
+
+				 <a href="teahouse_special_selection.html">TEAHOUSE SPECIAL SELECTION</a>&nbsp;&nbsp;
+				 <a href="white_teas.html">WHITE TEAS</a>&nbsp;&nbsp;
+				 <a href="green_teas.html">GREEN TEAS</a>&nbsp;&nbsp;
+				 <a href="oolong.html">OOLONG</a>&nbsp;&nbsp;
+				 <a href="black_teas1.html">BLACK TEAS</a><br />&nbsp;&nbsp;
+				 <a href="herbals.html">HERBALS</a>&nbsp;&nbsp;
+				 <a href="fruit_infusions.html">FRUIT INFUSIONS</a>&nbsp;&nbsp;
+				 <a href="bouquet_teaballs.html">BOUQUET TEABALLS</a>&nbsp;&nbsp;
+
+                </div>
+				BLACK TEAS 2</div>
+			<div id ="leftcolumn_content">
+				<div class ="leftcolumn_content_product">
+					<div class="leftcolumn_content_product_image">
+						<a href="#" onclick="MM_openBrWindow('product_detail/french_earl_grey_detail.html','','scrollbars=no,width=320,height=500,top=0,left=0')">
+						<img src="image/black teas/french_earl_grey.jpg" width="200px" height="140px" alt="" /></a>
+					</div>
+					<div class="leftcolumn_content_product_name">FRENCH EARL GREY<br/>
+						Quantity: <input type="text" id="FRENCHEARLGREY" name="qty" value="1" style="width: 50px" maxlength="2"/>
+									<input type="button" value="+" onclick="additem('FRENCHEARLGREY', '27')" />
+					  <input type="button" value="-" onclick="deleteitem('FRENCHEARLGREY', '27')" />
+					</div>
+					<div class="leftcolumn_content_product_image">
+						<a href="#" onclick="MM_openBrWindow('product_detail/golden_black_yunnan_detail.html','','scrollbars=no,width=320,height=500,top=0,left=0')">
+						<img src="image/black teas/golden_black_yunnan.jpg" width="200px" height="140px" alt="" /></a>
+					</div>
+					<div class="leftcolumn_content_product_name">GOLDEN BLACK YUNNAN<br/>
+						Quantity: <input type="text" id="GOLDENBLACKYUNNAN" name="qty" value="1" style="width: 50px" maxlength="2"/>
+									<input type="button" value="+" onclick="additem('GOLDENBLACKYUNNAN', '28')" />
+					  <input type="button" value="-" onclick="deleteitem('GOLDENBLACKYUNNAN', '28')" />
+					</div>
+					<div class="leftcolumn_content_product_image">
+						<a href="#" onclick="MM_openBrWindow('product_detail/golden_darjeeling_detail.html','','scrollbars=no,width=320,height=500,top=0,left=0')">
+						<img src="image/black teas/golden_darjeeling_ftgop1.jpg" width="200px" height="140px" alt="" /></a>
+					</div>
+					<div class="leftcolumn_content_product_name">GOLDEN DARJEELING FTGOP1<br/>
+						Quantity: <input type="text" id="GOLDENDARJEELING" name="qty" value="1" style="width: 50px" maxlength="2" />
+									<input type="button" value="+" onclick="additem('GOLDENDARJEELING', '29')" />
+					  <input type="button" value="-" onclick="deleteitem('GOLDENDARJEELING', '29')" />
+					</div>
+				</div>
+				<div class ="leftcolumn_content_product">
+					<div class="leftcolumn_content_product_image">
+						<a href="#" onclick="MM_openBrWindow('product_detail/india_assam_ detail.html','','scrollbars=no,width=320,height=500,top=0,left=0')">
+						<img src="image/black teas/india_assam.jpg" width="200px" height="140px" alt="" /></a>
+					</div>
+					<div class="leftcolumn_content_product_name">INDIA ASSAM (DIKOM)<br/>
+						Quantity: <input type="text" id="INDIAASSAM" name="qty" value="1" style="width: 50px" maxlength="2" />
+									<input type="button" value="+" onclick="additem('INDIAASSAM', '30')" />
+					  <input type="button" value="-" onclick="deleteitem('INDIAASSAM', '30')" />
+					</div>
+					<div class="leftcolumn_content_product_image">
+						<a href="#" onclick="MM_openBrWindow('product_detail/irish_breakfast_detail.html','','scrollbars=no,width=320,height=500,top=0,left=0')">
+						<img src="image/black teas/irish_breakfast.jpg" width="200px" height="140px" alt="" /></a>
+					</div>
+					<div class="leftcolumn_content_product_name">IRISH BREAKFAST<br/>
+						Quantity: <input type="text" id="IRISHBREAKFAST" name="qty" value="1" style="width: 50px" maxlength="2" />
+									<input type="button" value="+" onclick="additem('IRISHBREAKFAST', '31')" />
+					  <input type="button" value="-" onclick="deleteitem('IRISHBREAKFAST', '31')" />
+					</div>
+					<div class="leftcolumn_content_product_image">
+						<a href="#" onclick="MM_openBrWindow('product_detail/jellybean_detail.html','','scrollbars=no,width=320,height=500,top=0,left=0')">
+						<img src="image/black teas/jellybean.jpg" width="200px" height="140px" alt="" /></a>
+					</div>
+					<div class="leftcolumn_content_product_name">JELLYBEAN<br/>
+						Quantity: <input type="text" id="JELLYBEAN" name="qty" value="1" style="width: 50px" maxlength="2" />
+									<input type="button" value="+" onclick="additem('JELLYBEAN', '32')" />
+					  <input type="button" value="-" onclick="deleteitem('JELLYBEAN', '32')" />
+					</div>
+				</div>
+				<div class ="leftcolumn_content_product">
+					<div class="leftcolumn_content_product_image">
+						<a href="#" onclick="MM_openBrWindow('product_detail/keemun_detail.html','','scrollbars=no,width=320,height=500,top=0,left=0')">
+						<img src="image/black teas/keemun.jpg" width="200px" height="140px" alt="" /></a>
+					</div>
+					<div class="leftcolumn_content_product_name">KEEMUN<br/>
+						Quantity: <input type="text" id="KEEMUN" name="qty" value="1" style="width: 50px" maxlength="2" />
+									<input type="button" value="+" onclick="additem('KEEMUN', '33')" />
+					  <input type="button" value="-" onclick="deleteitem('KEEMUN', '33')" />
+					</div>
+					<div class="leftcolumn_content_product_image">
+						<a href="#" onclick="MM_openBrWindow('product_detail/mah_jongg_detail.html','','scrollbars=no,width=320,height=500,top=0,left=0')">
+						<img src="image/black teas/mah_jongg.jpg" width="200px" height="140px" alt="" /></a>
+					</div>
+					<div class="leftcolumn_content_product_name">MAH JONGG<br/>
+						Quantity: <input type="text" id="MAHJONGG" name="qty" value="1" style="width: 50px" maxlength="2"/>
+									<input type="button" value="+" onclick="additem('MAHJONGG', '34')" />
+					  <input type="button" value="-" onclick="deleteitem('MAHJONGG', '34')" />
+					</div>
+					<div class="leftcolumn_content_product_image">
+						<a href="#" onclick="MM_openBrWindow('product_detail/marco_oriental_detail.html','','scrollbars=no,width=320,height=500,top=0,left=0')">
+						<img src="image/black teas/marco_oriental.jpg" width="200px" height="140px" alt="" /></a>
+					</div>
+					<div class="leftcolumn_content_product_name">MARCO ORIENTAL<br/>
+						Quantity: <input type="text" id="MARCOORIENTAL" name="qty" value="1" style="width: 50px" maxlength="2"/>
+									<input type="button" value="+" onclick="additem('MARCOORIENTAL', '35')" />
+					  <input type="button" value="-" onclick="deleteitem('MARCOORIENTAL', '35')" />
+					</div>
+				</div>
+			</div>
+                   <div class="showing"><a href="black_teas1.html">1</a>
+		   				<a href="black_teas2.html">2</a>
+		   				<a href="black_teas3.html">3</a>
+		                   <a href="black_teas4.html">4</a>
+			</div>
+		</div>
+		<div id ="rightcolumn">
+			<p>SHOPPING</p>
+	            <div id="orderedItems"></div>
+					<div></div>
+					<br /><br />
+					Total = $<span id="total">0.00</span>
+					<br />
+
+					<input type="button" value="Clear Item" onclick="clearitem()" />
+					<input type="button" value="Checkout" onclick="location.href='checkout.html'" />
+					<div id='ddate' class="divdate"></div>
+					<div id='clock' class="divclock"></div>
+				</div>
+			</div>
+			<div id="foot">
+			Designed By LEJWD1101 and SEDED1101
+			</div>
+		</div>
+	</body>
+</html>

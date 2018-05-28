@@ -1,0 +1,227 @@
+body { 
+background-image : url(../image/background.png); 
+background-attachment : fixed; 
+} 
+#container { 
+width : 960px; 
+margin : 0 auto; 
+background-color : #b2d7b2; 
+height : 100%; 
+} 
+#navigation { 
+float : left; 
+width : 956px; 
+color : #333; 
+padding : 0; 
+border : 3px solid #b2d7b2; 
+margin : 0 0 0 0; 
+background : #b2d7b2; 
+} 
+.navi li { 
+float : left; 
+list-style : none; 
+} 
+.navi li a { 
+float : left; 
+display : block; 
+color : white; 
+text-decoration : none; 
+font-family : sans-serif; 
+font-size : 18px; 
+font-weight : bold; 
+text-align : center; 
+list-style : none; 
+padding : 0 40px 0 40px; 
+} 
+.navi li a b { 
+float : left; 
+display : block; 
+list-style : none; 
+} 
+#main_content { 
+color : #333; 
+border : 3px solid #b2d7b2; 
+margin : 0 0 0 0; 
+padding : 1px; 
+height : 100%; 
+width : 960px; 
+float : left; 
+background : #ffffff; 
+} 
+#leftcolumn { 
+color : #333; 
+border : 1px solid #b2d7b2; 
+margin : 0 0 0 0; 
+padding : 1px; 
+height : 738px; 
+width : 698px; 
+float : left; 
+background : #ffffff; 
+} 
+#rightcolumn { 
+float : right; 
+color : #333; 
+border : 1px solid #b2d7b2; 
+padding : 1px; 
+width : 250px; 
+height : 738px; 
+display : inline; 
+background : #ffffff; 
+font-size : 13px; 
+overflow : auto;
+
+} 
+#leftcolumn_subheader { 
+height : 55px; 
+width : 698px; 
+float : left; 
+background : #ffffff; 
+text-align : center; 
+} 
+.leftcolumn_subheader_subnavi { 
+background-color : #e5f8e5; 
+width : 694px; 
+height : 40px; 
+border : 1px solid #b2d7b2; 
+float : left; 
+} 
+.leftcolumn_subheader_name { 
+width : 698px; 
+height : 15px; 
+
+float : left; 
+} 
+.leftcolumn_subheader_subnavi li { 
+float : left; 
+list-style : none; 
+} 
+.leftcolumn_subheader_subnavi li a { 
+padding : 0 10px 0 2px; 
+} 
+#leftcolumn_content { 
+color : #333; 
+margin : 7px 10px 0 10px; 
+padding : 1px; 
+width : 675px; 
+height : 650px; 
+float : left; 
+background : #ffffff; 
+text-align : center; 
+overflow : auto; 
+font-size : 15px; 
+} 
+
+.main_left { 
+border : 1px solid #b2d7b2; 
+width : 350px; 
+height : 500px; 
+float : left; 
+background : #ffffff; 
+margin : 10px; 
+} 
+.main_left_best { 
+width : 330px; 
+height : 300px; 
+float : left; 
+background : black; 
+margin : 10px; 
+} 
+.main_left_video { 
+border : 1px solid #b2d7b2; 
+width : 330px; 
+height : 160px; 
+float : left; 
+background : #ffffff; 
+margin : 10px 10px 20px 10px; 
+} 
+.main_right { 
+border : 1px solid #b2d7b2; 
+width : 550px; 
+height : 500px; 
+float : left; 
+background : #ffffff; 
+margin : 10px; 
+} 
+.main_right_news { 
+width : 530px; 
+height : 400px; 
+float : left; 
+background : #ffffff; 
+margin : 10px; 
+font-size : 14px; 
+} 
+.main_right_logos { 
+border : 1px solid #b2d7b2; 
+width : 530px; 
+height : 55px; 
+float : left; 
+background : #b2d7b2; 
+margin : 10px; 
+} 
+.main_right_logo { 
+border : 1px solid #b2d7b2; 
+width : 55px; 
+height : 50px; 
+float : left; 
+background : white; 
+margin : 1px 1px 1px 1px; 
+} 
+.main_right_date { 
+border : 1px solid #b2d7b2; 
+width : 100px; 
+height : 50px; 
+float : left; 
+background : white; 
+margin : 1px 1px 1px 180px; 
+} 
+.leftcolumn_content_product { 
+width : 220px; 
+height : 640px; 
+float : left; 
+background : #ffffff; 
+} 
+.leftcolumn_content_product_image { 
+margin : 10px; 
+width : 200px; 
+height : 140px; 
+background : #b2d7b2; 
+} 
+.leftcolumn_content_product_image:hover { 
+background-color : gray; 
+} 
+.leftcolumn_content_product_name { 
+font-family : sans-serif; 
+font-size : 12px; 
+margin : 10px; 
+width : 200px; 
+height : 50px; 
+background : #ffffff; 
+} 
+.showing { 
+width : 550px; 
+text-align : center; 
+} 
+.product { 
+margin : 0 0 10px 0; 
+width : 675px; 
+height : 60px; 
+border : 2px solid #b2d7b2; 
+} 
+.product_name { 
+width : 675px; 
+height : 30px; 
+background-color : #b2d7b2; 
+} 
+.product_detail { 
+text-align : right; 
+width : 675px; 
+height : 30px; 
+background-color : #e5f8e5; 
+text-align : center; 
+font-size : 15px; 
+} 
+#foot{
+text-align : center;  
+font-size : 14px;
+color: #FFFFFF;
+}

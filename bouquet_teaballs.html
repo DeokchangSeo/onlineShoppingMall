@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<title></title>
+		<style type="text/css" media="screen">
+		</style>
+		<link href="stylesheet/new.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" language="JavaScript" src = "shoppingCart.js"></script>
+		<script type="text/javascript" language="JavaScript" src = "teaList.js"></script>
+		<script type="text/javascript">
+
+		function MM_openBrWindow(theURL,winName,features)
+		{
+  			window.open(theURL,winName,features);
+		}
+		</script>
+	</head>
+
+	<body onload="show_clock(); updateTotal()">
+	<div id= "container">
+		<div id="header">
+			<img width="960" height="200" src="image/banner.jpg" alt="" />
+		</div>
+		<div id="navigation">
+			<div class = "navi">
+				<ul>
+				<li ><a href="index.html"><b>Home</b></a></li>
+				<li><a href="about.html"><b>about</b></a></li>
+				<li><a href="tealist.html"><b>Tealist</b></a></li>
+				<li><a href="menu.html"><b>menu</b></a></li>
+				<li><a href="retail.html"><b>Retail</b></a></li>
+				<li><a href="contact.html"><b>Contact</b></a></li>
+				</ul>
+			</div>
+		</div>
+		<div id ="leftcolumn">
+			<div id ="leftcolumn_subheader">
+                 	 	<div class="leftcolumn_subheader_subnavi">
+
+  									 <a href="teahouse_special_selection.html">TEAHOUSE SPECIAL SELECTION</a>&nbsp;&nbsp;
+  									 <a href="white_teas.html">WHITE TEAS</a>&nbsp;&nbsp;
+  									 <a href="green_teas.html">GREEN TEAS</a>&nbsp;&nbsp;
+  									 <a href="oolong.html">OOLONG</a>&nbsp;&nbsp;
+  									 <a href="black_teas1.html">BLACK TEAS</a><br />&nbsp;&nbsp;
+  									 <a href="herbals.html">HERBALS</a>&nbsp;&nbsp;
+  									 <a href="fruit_infusions.html">FRUIT INFUSIONS</a>&nbsp;&nbsp;
+  									 <a href="bouquet_teaballs.html">BOUQUET TEABALLS</a>&nbsp;&nbsp;
+
+                  </div>
+				BOUQUET TEABALLS
+			</div>
+			<div id ="leftcolumn_content">
+				Available in a variety of flavours including Queen Jasmine, Lavender Bliss, Enchanted Heart and Spring Blossom.
+			</div>
+		</div>
+		<div id ="rightcolumn">
+			<p>SHOPPING</p>
+            <div id="orderedItems"></div>
+							<div></div>
+							<br /><br />
+							Total = $<span id="total">0.00</span>
+							<br />
+							<input type="button" value="Clear Item" onclick="clearitem()" />
+                            <input type="button" value="Checkout" onclick="location.href='checkout.html'" />
+							<div id='ddate' class="divdate"></div>
+							<div id='clock' class="divclock"></div>
+		</div>
+		<div id="foot">
+					Designed By LEJWD1101 and SEDED1101
+			</div>
+	</div>
+</body>
+</html>

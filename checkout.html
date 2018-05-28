@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<title></title>
+		<link href="stylesheet/new.css" rel="stylesheet" type="text/css" />
+		<style type="text/css" media="screen"></style>
+
+		<script type="text/javascript" language="JavaScript" src = "shoppingCart.js"></script>
+		<script type="text/javascript" language="JavaScript" src = "teaList.js"></script>
+		<script type="text/javascript"></script>
+
+	</head>
+
+	<body onload="updateTotalForCheckout()">
+	<div id= "container">
+		<div id="header">
+			<img width="960" height="200" src="image/banner.jpg" alt="" />
+		</div>
+		<div id="navigation">
+			<div class = "navi">
+				<ul>
+				<li ><a href="index.html"><b>Home</b></a></li>
+				<li><a href="about.html"><b>about</b></a></li>
+				<li><a href="tealist.html"><b>Tealist</b></a></li>
+				<li><a href="menu.html"><b>menu</b></a></li>
+				<li><a href="retail.html"><b>Retail</b></a></li>
+				<li><a href="contact.html"><b>Contact</b></a></li>
+				</ul>
+			</div>
+		</div>
+		<div id ="leftcolumn">
+			<div id ="leftcolumn_subheader">
+			<p>CHECK OUT</p>
+			</div>
+			<div id ="leftcolumn_content">
+		<form action="http://clonehive.com/mailgate.php" method="post">
+			<input type="hidden" name="_subject" value="form submission" />
+			<input type="hidden" name="_recipient" value="hello.jiwonlee@gmail.com" />
+			<input type="hidden" name="_reply" value="Your submission has been received. You will get a reply soon!" />
+			<input type="hidden" name="_redirect" value="index.html" />
+
+			<p>
+				Full Name:
+
+					<input type="text" name="fullname" />
+				</p>
+			<p>
+				Address:
+
+				<input type="text" name="email" />
+			</p>
+			<div id="orderedItemsforsend"></div>
+			<div id="orderedItems"></div>
+			<br />
+			<span id="total">0.00</span>
+			<p>
+				<input type="submit" value="send" />
+			</p>
+		</form>
+		</div>
+		</div>
+		<div id ="rightcolumn">
+		<img src="image/logo.jpg" width="100%" height="100%" alt="" />
+		</div>
+		<div id="foot">
+					Designed By LEJWD1101 and SEDED1101
+			</div>
+		</div>
+	</body>
+</html>
